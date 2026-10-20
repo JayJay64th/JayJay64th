@@ -66,20 +66,21 @@ Security work is evidence work:
 ## Selected work
 
 ### Bug bounty findings
-- Private and public bounty findings across DeFi, bridge, and protocol-risk areas.
-- Focus on high-impact classes: accounting drift, access-control bypass, oracle manipulation, and loss-path inconsistencies.
+- Sherlock
+- Code4rena
+- HackenProof
 
 ### Contest findings
-- JJST 3 contest findings — original exploit research and validation from my 2024 contest cycle.
-- Focused on real-world protocol edge cases, state assumptions, and exploitability proof.
+- 3 contest findings across protocol attack surfaces and economic edge cases.
+- Focus on state drift, access control, oracle assumptions, and liquidation logic.
+- Each finding was validated through direct exploit modeling and proof-oriented reproduction.
 
 ### Tools built + autonomous pipeline
-- Custom security tooling for recon, state diffing, invariant checks, and exploit validation.
-- Autonomous hunting pipeline: target selection → model the state transitions → pattern sweep → exploit proof → closeout notes.
+- Custom tooling for protocol recon, state diffing, invariant checks, and exploit validation.
+- Autonomous hunting pipeline: target selection → state-modeling → pattern sweep → exploit proof → closeout.
 
 ### Writeups
-- Security notes, protocol breakdowns, and technical writeups covering root cause analysis and reproduction strategy.
-- Public and internal research writeups documenting exploit paths, mitigations, and lessons learned.
+- Security notes, protocol breakdowns, and technical writeups covering root cause analysis, exploit path validation, and mitigation thinking.
 
 ---
 
