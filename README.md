@@ -34,6 +34,8 @@ I hunt for high-impact vulnerabilities in decentralized protocols — with an em
 |---|---|
 | DeFi lending / money markets | Interest accounting, liquidation, share/asset math, isolation modes |
 | Perp & AMM design | Fee ledgers, PnL conservation, oracle integration, settlement |
+| Launchpads | Token vesting logic, sale mechanics, allocation fairness, privileged release paths |
+| Prediction markets | Settlement logic, oracle tampering, payout accounting, market resolution integrity |
 | Cross-chain & bridges | Message replay, mint/burn parity, endpoint trust |
 | Consensus-adjacent | Validator economics, slashing paths, finality assumptions |
 
