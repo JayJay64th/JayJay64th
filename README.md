@@ -14,8 +14,8 @@
 
 <p align="center">
   <a href="https://github.com/JayJay64th"><img src="https://img.shields.io/badge/GitHub-@JayJay64th-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://x.com/yourhandle"><img src="https://img.shields.io/badge/X-@yourhandle-000000?style=for-the-badge&logo=x" /></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/badge/Email-your@email.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://x.com/0xomeiza"><img src="https://img.shields.io/badge/X-@0xomeiza-000000?style=for-the-badge&logo=x" /></a>
+  <a href="mailto:josephomeizajames@gmail.com"><img src="https://img.shields.io/badge/Email-josephomeizajames-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -83,6 +83,7 @@ Reject hypotheses only when a specific safeguard or economic constraint explains
 ## Selected work
 
 ### Findings
+- [bug-findings](https://github.com/JayJay64th/bug-findings)
 - **Contests** — Sherlock, Code4rena, HackenProof: **3 findings** across protocol attack surfaces and economic edge cases.
 - Focus areas: **state drift, access control, oracle assumptions, liquidation logic**.
 - Every finding validated by direct exploit modeling — a test, a forked-state query, or a priced trigger; no code-only suspicion ships.
@@ -114,8 +115,8 @@ Reject hypotheses only when a specific safeguard or economic constraint explains
 ## Contact
 
 - GitHub: [@JayJay64th](https://github.com/JayJay64th)
-- X: [@yourhandle](https://x.com/yourhandle) — add in profile settings
-- Email: your@email.com — add in profile settings
+- X: [@0xomeiza](https://x.com/0xomeiza)
+- Email: [josephomeizajames@gmail.com](mailto:josephomeizajames@gmail.com)
 
 > No fake stats. No inflated totals. Only public repos and verified work are presented.
 
