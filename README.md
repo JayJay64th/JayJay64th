@@ -4,12 +4,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Solidity-363636?logo=solidity&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Foundry-1C1C1C" />
-  <img src="https://img.shields.io/badge/Anchor-512BD4" />
   <img src="https://img.shields.io/badge/Ethereum-3C3C3D?logo=ethereum&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solana-9945FF?logo=solana&logoColor=white" />
 </p>
 
 <p align="center">
@@ -39,7 +35,7 @@ I hunt for high-impact vulnerabilities in decentralized protocols — with an em
 | Cross-chain & bridges | Message replay, mint/burn parity, endpoint trust |
 | Consensus-adjacent | Validator economics, slashing paths, finality assumptions |
 
-**Stack:** Solidity · Rust (Anchor/Solana) · Go · Foundry · on-chain state forensics
+**Stack:** Solidity · Foundry · Ethereum · on-chain state forensics
 
 ---
 
