@@ -43,13 +43,29 @@ I hunt for high-impact vulnerabilities in decentralized protocols — with an em
 
 ## Methodology
 
-Security work is evidence work:
+Manual auditing, in the order I actually work:
 
-- Scope first — authorized programs only; impact bar driven by the protocol’s own rules.
-- Comparison over guesswork — same economic operation via alternate entry points, diffed field by field.
-- Proof before claim — every finding ships with a test, state query, or priced trigger.
-- Ledger discipline — every lead tracked; kills record what protected the system.
-- Variant search on confirm — one finding is often a pattern; sweep the codebase and audit corpus.
+1. Scope & threat model  
+Read the program rules and impact bar first. Identify who can call what, who trusts whom, and where value sits. Write the invariants before looking for bugs — if you can't state what must always be true, you can't spot what breaks it.
+
+2. Architecture pass  
+Map every entry point (external, admin, callback, cross-contract) to the state it mutates. Build the actor matrix: for each function, ask who is allowed to reach this, and what are they allowed to affect. Most real bugs live in the gap between intended and enforced authorization.
+
+3. Line-by-line review  
+Three lenses, repeated across the codebase:
+
+Accounting — do the numbers balance? Shares vs assets, supply vs debt, fees vs revenue, rounding direction on every mul/div.  
+Access control — does every state change bind to the right caller, the right inputs, and the right lifecycle phase? Check equivalent entry points side by side for asymmetric checks.  
+Trust boundaries — every external call, oracle read, and user-supplied parameter: what happens if it lies, reverts, returns garbage, or is manipulated in the same transaction?
+
+4. Attack enumeration  
+For each function, enumerate the abuse cases: who loses money, how much, and what does the attacker pay? Walk the happy path, then the hostile path — front-run it, re-enter it, batch it, call it out of order, call it with zero/empty/max values, call it from a contract instead of an EOA.
+
+5. Proof before report  
+Every candidate gets a concrete demonstration: a failing test, a forked-state query, or a priced calculation with numbers. If impact can't be shown with the attacker's profit and the victim's loss spelled out, it isn't ready to be a finding.
+
+6. Kill or confirm  
+A lead dies only when you can name the specific check, invariant, or economic force that stops it — and you record that protection, because it's usually the answer to the next hypothesis too. Confirmed findings get swept for variants elsewhere in the codebase before they're written up.
 
 ---
 
