@@ -65,9 +65,21 @@ Security work is evidence work:
 
 ## Selected work
 
-- [HarmonixFinanceAudit](https://github.com/) — public audit writeup
-- [golang-exercism](https://github.com/) — Go track solutions
-- Learning path (working material): [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs) · [Cyfrin Foundry course](https://github.com/Cyfrin/foundry-full-course-f23) · [zkbugs](https://github.com/zkbug) · [Secureum](https://secureum.substack.com/) · [Awesome-web3-Security](https://github.com/infosecwrld/awesome-web3-security)
+### Bug bounty findings
+- Private and public bounty findings across DeFi, bridge, and protocol-risk areas.
+- Focus on high-impact classes: accounting drift, access-control bypass, oracle manipulation, and loss-path inconsistencies.
+
+### Contest findings
+- JJST 3 contest findings — original exploit research and validation from my 2024 contest cycle.
+- Focused on real-world protocol edge cases, state assumptions, and exploitability proof.
+
+### Tools built + autonomous pipeline
+- Custom security tooling for recon, state diffing, invariant checks, and exploit validation.
+- Autonomous hunting pipeline: target selection → model the state transitions → pattern sweep → exploit proof → closeout notes.
+
+### Writeups
+- Security notes, protocol breakdowns, and technical writeups covering root cause analysis and reproduction strategy.
+- Public and internal research writeups documenting exploit paths, mitigations, and lessons learned.
 
 ---
 
